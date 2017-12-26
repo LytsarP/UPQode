@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+	.title-company {
+	    width: 39%;
+	}
+	.main-menu {
+    	width: 43%;
+	}
+	.search {
+    	width: 17%;
+	}
+}
+@media (max-width: 1024px) {
+	.search {
+    	display: none;
+    }
+    .menu-vision {
+    	display: none;
+    }
+    .main-menu {
+    	display: none;
+    }
+    .title-company {
+	    width: 49%;
+	}
+	.burger-menu {
+		width: 49%;
+		height: 70px;
+		float: right;
+	}
+}
+@media (min-width: 1024px) {
+	.burger-menu {
+		display: none;
+	}
+}
+@media (min-width: 1000px) {
+	.swiper-button-next.swiper-button-white {
+	    margin-right: 28px;
+	}
+	.swiper-button-prev.swiper-button-white {
+	    margin-left: 28px;
+	}
+}
