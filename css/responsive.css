@@ -141,10 +141,10 @@
     	height: 608px;
 	}
 	.swiper-button-next.swiper-button-white, .swiper-container-rtl .swiper-button-prev.swiper-button-white {
-		display: none;
+		display: none!important;
 	}
 	.swiper-button-prev.swiper-button-white {
-		display: none;
+		display: none!important;
 	}
 }
 @media (max-width: 665px) {
